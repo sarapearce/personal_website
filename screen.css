@@ -1,0 +1,57 @@
+.small {
+    width: 10%;
+    height: 10%;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.center {
+    margin: 50% 5%;
+}
+
+.button {
+    width: 5%;
+    height: 5%;
+    color: grey;
+}
+
+.right {
+    margin: 50% 25% 50% 75%;
+}
+
+.top-right {
+    margin: 25% 34%;
+    padding: 0px;
+}
+
+.top-center {
+    margin: 24% 25%;
+    padding: 0px;
+}
+
+.top-left {
+    margin: 22% 15%;
+    padding: 0px;
+}
+
+body {
+    background-size: cover;
+}
+
+.logo
+{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border-radius: 3px;
+}
+
+@media screen and (orientation: portrait) {
+    .logo { max-width: 60%; }
+}
+
+@media screen and (orientation: landscape) {
+    .logo { max-height: 60%; }
+}
