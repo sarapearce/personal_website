@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body background = "bg_image.png">
+        <div id="images_wrapper">
+            <img id="logo" src="logo.png" class="btn-large icon-align-center" onmouseover="submenu();"></img> 
+            <div id="sub_menus">
+                <img id="about_me_menu" src="about_me.png" onclick="aboutMe();"></img>
+                <img id="about_this_site_menu" src="about_this_site.png" onclick="aboutThisSite();"></img>
+                <a href="github.com/sarapearce" id="github_menu" src="github.png" onclick="github();"></a>
+            </div>
+        </div>
+        <button id="home_button" class="btn-small icon-align-left" onclick="returnHomeScreen();">Click to Hide Menus</button>
+        
+        <canvas id="canvas" class="hidden"></canvas>
+        <img id="selfie" class="btn-small icon-align-right" src="computing.jpeg"></img>
+    </body>
+</html>
