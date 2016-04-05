@@ -1,2 +1,3 @@
 # personal_website
-Source code for my personal website built from scratch
+Source code for old draft of my portfolio site
+
